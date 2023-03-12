@@ -12,6 +12,7 @@ public class Task01 {
         for (int i = 0; i < 10; i++) {
             arr.add(random.nextInt(10));
         }
+        System.out.println(arr);
         Collections.sort(arr);
         System.out.println(arr);
     }
